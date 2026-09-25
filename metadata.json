@@ -1,0 +1,6 @@
+{
+  "name": "LexGuild - Verified Attorney Social Network",
+  "description": "The premier network exclusively for licensed attorneys featuring verified bar credentials, case referrals with Rule 1.5(e) fee tracking, confidential peer chambers, and cross-jurisdictional legal insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

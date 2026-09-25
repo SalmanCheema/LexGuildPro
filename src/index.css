@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-cinzel: "Cinzel", "Times New Roman", serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080d1a;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+.font-editorial {
+  font-family: "Newsreader", Georgia, serif;
+}
+
+.font-crest {
+  font-family: "Cinzel", serif;
+}
+
+/* Custom scrollbar for legal briefs and chambers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b132b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a880;
+}
